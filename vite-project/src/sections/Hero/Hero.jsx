@@ -1,5 +1,5 @@
 import styles from './HeroStyles.module.css';
-import heroImg from '../../assets/hero-img.png';
+import heroImg from '../../assets/hero.png';
 import sun from '../../assets/sun.svg';
 import moon from '../../assets/moon.svg';
 import twitterLight from '../../assets/twitter-light.svg';
@@ -8,7 +8,7 @@ import githubLight from '../../assets/github-light.svg';
 import githubDark from '../../assets/github-dark.svg';
 import linkedinLight from '../../assets/linkedin-light.svg';
 import linkedinDark from '../../assets/linkedin-dark.svg';
-import CV from '../../assets/cv.pdf';
+import CV from '../../assets/CV_Dariusz_Słupski.pdf';
 import { useTheme } from '../../common/ThemeContext';
 
 function Hero() {
@@ -48,7 +48,14 @@ function Hero() {
             <img src={linkedinIcon} alt='Linkedin Icon' />
           </a>
         </span>
-        <p>Describtion</p>
+        <p>
+          I am a passionate and dedicated Junior Front-End Developer
+          <br /> with a knack for creating engaging, user-friendly websites and
+          web applications.
+          <br /> Here you'll find a collection of my projects showcasing my
+          skills in
+          <br /> HTML, CSS, JavaScript, and React.
+        </p>
         <a href={CV} download>
           <button className='hover'>Resume</button>
         </a>
